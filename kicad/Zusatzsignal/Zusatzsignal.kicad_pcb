@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 1.6)
+    (thickness 0.8)
   )
 
   (paper "A4")
@@ -42,6 +42,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 0.71) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -204,6 +217,9 @@
   (gr_arc (start 138.5 84.3) (mid 138.146447 84.153553) (end 138 83.8) (layer "Edge.Cuts") (width 0.1) (tstamp e8158edc-20a3-40c7-babc-1f71692cea6b))
   (gr_text "+" (at 140.7 82.2) (layer "B.SilkS") (tstamp 1a303e65-fe8c-4ef6-b370-cd21f4c7d82b)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "ZSv2" (at 139.8 83.6) (layer "B.SilkS") (tstamp f834a8ee-aeb8-4ccf-afcc-a365ebb18c20)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
 
   (segment (start 140.6875 81.967785) (end 140.6875 81.6) (width 0.25) (layer "F.Cu") (net 1) (tstamp 168f9c6c-40cb-4b23-91e3-1657acd30fe9))
