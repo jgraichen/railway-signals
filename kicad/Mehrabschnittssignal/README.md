@@ -1,6 +1,6 @@
 # Mehrabschnittssignal MSv2
 
-![PCB preview](preview.png)
+<p align="center"><img src="preview.png" width="300px"/></p>
 
 Geeignet für KS-Mehrabschnittssignale.
 
