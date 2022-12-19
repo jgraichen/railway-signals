@@ -1,6 +1,6 @@
 # Hauptsignal mit mehrfarbiger Optik MSOv1
 
-<p align="center"><img src="preview.png" width="300px"/></p>
+<p align="center"><img src="Hauptsignal-Mehrfarbenoptik.png" width="300px"/></p>
 
 Geeignet für KS-Hauptsignale und Mehrabschnitssignale mit mehrfarbiger Optik über eine ARGB-LED.
 

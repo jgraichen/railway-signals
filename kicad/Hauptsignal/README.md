@@ -1,6 +1,6 @@
 # Hauptsignal HSv1
 
-<p align="center"><img src="preview.png" width="300px"/></p>
+<p align="center"><img src="Hauptsignal.png" width="300px"/></p>
 
 Geeignet für KS-Hauptsignale.
 
