@@ -5,8 +5,10 @@ trap '{ rm -rf -- "$tmpdir"; }' EXIT
 
 for file in *.kicad_pro; do
     name="${file%.kicad_pro}"
-    pcbdraw plot --dpi 1200 --style set-black-hasl --side front "$name.kicad_pcb" "$tmpdir/front.png"
-    pcbdraw plot --dpi 1200 --style set-black-hasl --side back "$name.kicad_pcb" "$tmpdir/back.png"
+    echo "Generate preview for ${name}..."
+
+    pcbdraw plot --silent --dpi 1200 --style set-black-hasl --side front "$name.kicad_pcb" "$tmpdir/front.png"
+    pcbdraw plot --silent --dpi 1200 --style set-black-hasl --side back "$name.kicad_pcb" "$tmpdir/back.png"
 
     montage -tile 2x -background none -geometry +0+0 "$tmpdir/front.png" "$tmpdir/back.png" "$name.png"
 done
