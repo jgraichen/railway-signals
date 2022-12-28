@@ -4,7 +4,7 @@
 
 Geeignet für KS-Hauptsignale und Mehrabschnitssignale mit mehrfarbiger Optik über eine ARGB-LED.
 
-Pin 1 muss die gemeinsame Anoder der RGB LED sein, die anderen Pins können je nach Bedarf Rot, Grün, oder Blau sein. Das ermöglicht auch den Einsatz auch von zum Beispiel ARGB und ARBG LEDs.
+Pin 1 muss die gemeinsame Anode der RGB LED sein, die anderen Pins können je nach Bedarf Rot, Grün, oder Blau sein. Das ermöglicht auch den Einsatz auch von zum Beispiel ARGB und ARBG LEDs.
 
 ## Anschlussbelegung
 
