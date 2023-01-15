@@ -18,6 +18,7 @@ _autosave-*
 fp-info-cache
 jlcpcb
 panel*
+!panel*.json
 production
 
 # Netlist files (exported from Eeschema)
