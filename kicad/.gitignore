@@ -12,13 +12,14 @@
 *.sch-bak
 *~
 _autosave-*
+*.lck
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 jlcpcb
-panel*
-!panel*.json
+*/panel/*
+!*/panel/.keep
 production
 
 # Netlist files (exported from Eeschema)
