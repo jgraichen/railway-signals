@@ -2,8 +2,8 @@
     "layout": {
         "type": "grid",
         "space": "2mm",
-        "rows": 5,
-        "cols": 10
+        "rows": 4,
+        "cols": 7
     },
     "tabs": {
         "type": "fixed",
