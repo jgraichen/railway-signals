@@ -3,18 +3,26 @@
         "type": "grid",
         "space": "2mm",
         "rows": 8,
-        "cols": 10
+        "cols": 10,
+        "hbackbone": "4mm",
+        "vbackbone": "4mm",
+        "hboneskip": "1",
+        "vboneskip": "1",
+        "hbonecut": false,
+        "vbonecut": false
     },
     "tabs": {
         "type": "fixed",
         "hcount": 1,
         "hwidth": "2mm",
         "vcount": 1,
-        "vwidth": "1mm"
+        "vwidth": "2mm"
     },
     "cuts": {
-        "type": "vcuts",
-        "layer": "Edge.Cuts"
+        "type": "mousebites",
+        "drill": "0.5mm",
+        "spacing": "1mm",
+        "offset": "0mm"
     },
     "framing": {
         "type": "frame",
@@ -37,13 +45,21 @@
         "opening": "1mm"
     },
     "post": {
-        "millradius": "1mm"
+        "millradius": "0mm"
     },
     "text": {
         "type": "simple",
         "text": "{boardTitle} {boardRevision} {date}",
         "anchor": "mt",
         "voffset": "2.5mm",
+        "hjustify": "center",
+        "vjustify": "center"
+    },
+    "text2": {
+        "type": "simple",
+        "text": "JLCJLCJLCJLC",
+        "anchor": "mb",
+        "voffset": "-2.5mm",
         "hjustify": "center",
         "vjustify": "center"
     }
