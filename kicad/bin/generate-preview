@@ -3,12 +3,24 @@
 tmpdir="$(mktemp -d)"
 trap '{ rm -rf -- "$tmpdir"; }' EXIT
 
+if [ -f ".pcbdrawrc" ]; then
+    source ".pcbdrawrc"
+fi
+
+PCBDRAW_SIDE="${PCBDRAW_SIDE:-"front back"}"
+PCBDRAW_STYLE="${PCBDRAW_STYLE:-"set-black-hasl"}"
+
+MONTAGE_TILE="${MONTAGE_TILE:-"2x"}"
+
 for file in *.kicad_pro; do
     name="${file%.kicad_pro}"
     echo "Generate preview for ${name}..."
+    files=();
 
-    pcbdraw plot --silent --dpi 1200 --style set-black-hasl --side front "$name.kicad_pcb" "$tmpdir/front.png"
-    pcbdraw plot --silent --dpi 1200 --style set-black-hasl --side back "$name.kicad_pcb" "$tmpdir/back.png"
+    for side in $PCBDRAW_SIDE; do
+        files+=("$side.png")
+        pcbdraw plot --silent --dpi 1200 --style "${PCBDRAW_STYLE}" --side "$side" "$name.kicad_pcb" "$tmpdir/$side.png"
+    done
 
-    montage -tile 2x -background none -geometry +0+0 "$tmpdir/front.png" "$tmpdir/back.png" "$name.png"
+    montage -tile "$MONTAGE_TILE" -background none -geometry +0+0 "${files[@]/#/"$tmpdir/"}" "$name.png"
 done
