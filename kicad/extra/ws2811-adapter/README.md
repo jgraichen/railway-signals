@@ -41,7 +41,7 @@ If you now want to change your module layout to a setup without opposite track s
 | Index | Signal           | Logical LED numbers |
 | ----- | ---------------- | ------------------- |
 | 1     | Entry signal     | LED 1-12            |
-| 2     | Pre-entry signal | LED 25-36 ⚠         |
+| 2     | Pre-entry signal | LED 13-24 ⚠         |
 
 To support such reconfiguration without reprogramming, the data signal can be routed differently:
 
