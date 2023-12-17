@@ -46,3 +46,10 @@ If you now want to change your module layout to a setup without opposite track s
 To support such reconfiguration without reprogramming, the data signal can be routed differently:
 
 ![Data signal line flow](images/data-signal-flow.svg)
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![](https://upload.wikimedia.org/wikipedia/commons/e/e5/CC_BY-SA_icon.svg)](http://creativecommons.org/licenses/by-sa/4.0/)

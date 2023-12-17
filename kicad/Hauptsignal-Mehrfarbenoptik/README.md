@@ -24,3 +24,10 @@ Pin 1 muss die gemeinsame Anode der RGB LED sein, die anderen Pins können je na
 | J7       | 7   | Gelb     | Zs7                              |
 | J8       | 8   | Gelb     | Zs7                              |
 | J9       | 9   | Kaltweiß | Sh1/Ra12/Zs1/Zusatzlicht (unten) |
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![](https://upload.wikimedia.org/wikipedia/commons/e/e5/CC_BY-SA_icon.svg)](http://creativecommons.org/licenses/by-sa/4.0/)

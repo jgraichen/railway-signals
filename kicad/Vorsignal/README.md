@@ -16,3 +16,10 @@ Geeignet für KS-Vorsignale.
 | J1       | 1   | Kaltweiß | Verkürzter Bremswegabstand (oben) |
 | J3       | 3   | Gelb     | Ks2 (Halt erwarten)               |
 | J4       | 4   | Grün     | Ks1 (Fahrt erwarten)              |
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![](https://upload.wikimedia.org/wikipedia/commons/e/e5/CC_BY-SA_icon.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
