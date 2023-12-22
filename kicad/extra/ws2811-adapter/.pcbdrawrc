@@ -1,0 +1,3 @@
+#!/bin/bash
+
+export PCBDRAW_STYLE="set-white-hasl"

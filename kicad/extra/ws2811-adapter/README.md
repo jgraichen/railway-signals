@@ -12,13 +12,13 @@ The control signal from the signal decoder consists of three wires, a ground and
 
 | RJ45 | Purpose              |
 | ---- | -------------------- |
-| 1    | Outgoing data signal |
-| 2    | Returned data signal |
-| 3    | Not connected        |
+| 1    | Returned data signal |
+| 2    | GND                  |
+| 3    | GND                  |
 | 4    | VCC (Power)          |
 | 5    | VCC (Power)          |
-| 6    | Not connected        |
-| 7    | GND                  |
+| 6    | GND                  |
+| 7    | Data signal          |
 | 8    | GND                  |
 
 ### Outgoing and returned data signal

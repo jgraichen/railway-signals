@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PCBDRAW_STYLE="set-white-hasl"
+export MONTAGE_TILE="x2"
