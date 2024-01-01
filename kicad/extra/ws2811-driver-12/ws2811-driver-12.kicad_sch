@@ -9,6 +9,7 @@
     (date "2023-12-22")
     (rev "2.0")
     (company "Jan Graichen")
+    (comment 1 "© CC-BY-SA 4.0")
   )
 
   (lib_symbols
