@@ -6,15 +6,15 @@ With M3 screw mounts for WS8211 LED driver boards.
 
 ![](./watti-assembly-preview.png)
 
-* [STEP model file](./watti-assembly.step)
+* [STP model file](./watti-assembly.stp)
 
 ## With latch
 
-Signal mount has a 1mm latch on top to stop the module from falling through.
+Signal mount has a 1 mm latch on top to stop the module from falling through.
 
 ![](./watti-w-latch-assembly-preview.png)
 
-* [STEP model file](./watti-w-latch-assembly.step.step)
+* [STP model file](./watti-w-latch-assembly.stp)
 
 ## License
 
