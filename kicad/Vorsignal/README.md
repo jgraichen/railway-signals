@@ -1,4 +1,4 @@
-# Vorsignal VSv1
+# Vorsignal
 
 <p align="center"><img src="Vorsignal.png" width="300px"/></p>
 
@@ -10,12 +10,13 @@ Geeignet für KS-Vorsignale.
 | --------------------- | ------------------------------- |
 | ![Schema](schema.png) | ![Pin-Belegung](schema_vis.png) |
 
-| Referenz | Pin | LED      | Funktion                          |
-| -------- | --- | -------- | --------------------------------- |
-| J0       | +   |          | Stromversorgung (+)               |
-| J1       | 1   | Kaltweiß | Verkürzter Bremswegabstand (oben) |
-| J3       | 3   | Gelb     | Ks2 (Halt erwarten)               |
-| J4       | 4   | Grün     | Ks1 (Fahrt erwarten)              |
+| Referenz | Pin | LED      | Funktion                   |
+| -------- | --- | -------- | -------------------------- |
+| J0       | +   |          | Stromversorgung (+)        |
+| J1       | 1   | Kaltweiß | Verkürzter Bremswegabstand |
+| J3       | 3   | Gelb     | Ks2 (Halt erwarten)        |
+| J4       | 4   | Grün     | Ks1 (Fahrt erwarten)       |
+| J9       | 9   | Kaltweiß | Wiederholer                |
 
 ## License
 
