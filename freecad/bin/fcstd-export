@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+# pylint: disable=missing-docstring,invalid-name
+# pyright: reportMissingImports=false, reportMissingModuleSource=false
+"""
+Export first root object to STL or STEP.
+
+Usage:
+
+    ./export.py input.FCStd [-f stl|step] [-o output.stl]
+"""
+
+import os
+import os.path
+import sys
+
+import click
+
+for path in [
+    "~/.local/lib/freecad/lib",
+    "~/.local/share/freecad/Mod",
+    "/usr/local/lib/freecad/lib",
+    "/usr/local/share/freecad/Mod",
+    "/usr/lib/freecad/lib",
+    "/usr/share/freecad/Mod",
+]:
+    path = os.path.expanduser(path)
+    if os.path.exists(path):
+        sys.path.append(path)
+
+
+# pylint: disable=import-error,wrong-import-position
+import FreeCAD  # noqa: E402
+import Mesh  # noqa: E402
+import Part  # noqa: E402
+
+FORMAT_MESH = ["obj", "stl"]
+FORMAT_PART = ["step", "wrl"]
+
+
+@click.command()
+@click.argument(
+    "src",
+    type=click.Path(exists=True),
+)
+@click.option(
+    "--format",
+    "-f",
+    "fmt",
+    type=click.Choice(FORMAT_MESH + FORMAT_PART, case_sensitive=False),
+    default="stl",
+)
+@click.option(
+    "--output",
+    "-o",
+    type=click.Path(),
+    default=None,
+)
+def export(src, fmt, output):
+    if not output:
+        output = os.path.splitext(src)[0] + "." + fmt.lower()
+
+    os.makedirs(os.path.dirname(output), exist_ok=True)
+
+    FreeCAD.open(src)
+    doc = FreeCAD.activeDocument()
+
+    # Only export all part features objects from the first root element
+    root = doc.RootObjects[0]
+
+    # pprint((root, root.Label, root.TypeId))
+
+    if root.isDerivedFrom("Part::Feature"):
+        # Root is a part body: We can directly export that
+        objects = [root]
+
+    elif root.isDerivedFrom("App::Part"):
+        # Root is an assembly: Scan for all individual parts
+        objects = doc.findObjects("Part::Feature")
+        objects = [o for o in objects if root in o.InListRecursive]
+
+    # pprint([(o, o.Label, o.TypeId) for o in objects])
+
+    if fmt in FORMAT_MESH:
+        Mesh.export([root], output)
+    else:
+        Part.export(objects, output)
+
+
+if __name__ == "__main__":
+    export()  # pylint:disable=E1120
