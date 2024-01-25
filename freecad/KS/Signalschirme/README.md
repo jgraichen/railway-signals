@@ -12,8 +12,8 @@
   </thead>
   <tbody>
     <tr>
-      <td width="96"><img src='png/MS_Sh1-front.png' width='96' /></td>
-      <td width="96"><img src='png/MS_Zs_Sh1-front.png' width='96' /></td>
+      <td width="200"><img src='png/MS_Sh1-front.png' /></td>
+      <td width="200"><img src='png/MS_Zs_Sh1-front.png' /></td>
       <td>
         <ul>
           <li>Rangiersignal (Sh1)</li>
@@ -26,8 +26,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Sh1_vkBw-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Sh1_vkBw-front.png' width='96' /></td>
+      <td><img src='png/MS_Sh1_vkBw-front.png' /></td>
+      <td><img src='png/MS_Zs_Sh1_vkBw-front.png' /></td>
       <td>
         <ul>
           <li>Kennlicht</li>
@@ -42,8 +42,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs7-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs7-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs7-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs7-front.png' /></td>
       <td>
         <ul>
           <li>Vorsichtssignal (Zs7)</li>
@@ -55,8 +55,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs7_vkBw-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs7_vkBw-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs7_vkBw-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs7_vkBw-front.png' /></td>
       <td>
         <ul>
           <li>Kennlicht</li>
@@ -70,8 +70,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs7_Zs1-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs7_Zs1-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs7_Zs1-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs7_Zs1-front.png' /></td>
       <td>
         <ul>
           <li>Vorsichtssignal</li>
@@ -84,8 +84,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs7_Zs1_vkBw-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs7_Zs1_vkBw-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs7_Zs1_vkBw-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs7_Zs1_vkBw-front.png' /></td>
       <td>
         <ul>
           <li>Kennlicht</li>
@@ -100,8 +100,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs7_Zs1m-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs7_Zs1m-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs7_Zs1m-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs7_Zs1m-front.png' /></td>
       <td>
         <ul>
           <li>Vorsichtssignal</li>
@@ -114,8 +114,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs7_Zs1m_vkBw-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs7_Zs1m_vkBw-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs7_Zs1m_vkBw-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs7_Zs1m_vkBw-front.png' /></td>
       <td>
         <ul>
           <li>Kennlicht</li>
@@ -130,8 +130,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs1-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs1-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs1-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs1-front.png' /></td>
       <td>
         <ul>
           <li>Ersatzsignal</li>
@@ -143,8 +143,8 @@
       </td>
     </tr>
     <tr>
-      <td><img src='png/MS_Zs1_vkBw-front.png' width='96' /></td>
-      <td><img src='png/MS_Zs_Zs1_vkBw-front.png' width='96' /></td>
+      <td><img src='png/MS_Zs1_vkBw-front.png' /></td>
+      <td><img src='png/MS_Zs_Zs1_vkBw-front.png' /></td>
       <td>
         <ul>
           <li>Kennlicht</li>
@@ -162,8 +162,44 @@
 
 ## Vorsignal
 
-| Vorschau                                          | Besonderheiten             | Datei                   |
-| ------------------------------------------------- | -------------------------- | ----------------------- |
-| <img src='png/VS_Vsig-front.png' width='96' />    |                            | [STL](VS_Vsig.stl)      |
-| <img src='png/VS_Vsig_Wd-front.png' width='96'>   | Wiederholer                | [STL](VS_Vsig_Wd.stl)   |
-| <img src='png/VS_Vsig_vkBw-front.png' width='96'> | Verkürzter Bremswegabstand | [STL](VS_Vsig_vkBw.stl) |
+
+<table>
+  <thead>
+    <tr>
+      <th width="180">Vorschau</th>
+      <th>Besonderheiten</th>
+      <th>Dateien</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td ><img src='png/VS_Vsig-front.png' /></td>
+      <td></td>
+      <td>
+        <a href="stl/VS_Vsig.stl">STL</a>
+      </td>
+    </tr>
+    <tr>
+      <td ><img src='png/VS_Vsig_Wd-front.png' /></td>
+      <td>
+        <ul>
+          <li>Wiederholer</li>
+        </ul>
+      </td>
+      <td>
+        <a href="stl/VS_Vsig_Wd.stl">STL</a>
+      </td>
+    </tr>
+    <tr>
+      <td ><img src='png/VS_Vsig_vkBw-front.png' /></td>
+      <td>
+        <ul>
+          <li>Verkürzter Bremswegabstand</li>
+        </ul>
+      </td>
+      <td>
+        <a href="stl/VS_Vsig_vkBw.stl">STL</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
