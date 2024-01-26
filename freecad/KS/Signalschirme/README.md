@@ -195,7 +195,8 @@
       <td ><img src='export/VS_Vsig-front.png' /></td>
       <td></td>
       <td>
-        <a href="export/VS_Vsig.stl">STL</a>
+        <a href="export/VS_Vsig.stl">STL</a><br />
+        <a href="export/VS_Vsig.step">STEP</a><br />
       </td>
     </tr>
     <tr>
@@ -206,7 +207,8 @@
         </ul>
       </td>
       <td>
-        <a href="export/VS_Vsig_Wd.stl">STL</a>
+        <a href="export/VS_Vsig_Wd.stl">STL</a><br />
+        <a href="export/VS_Vsig_Wd.step">STEP</a><br />
       </td>
     </tr>
     <tr>
@@ -217,7 +219,8 @@
         </ul>
       </td>
       <td>
-        <a href="export/VS_Vsig_vkBw.stl">STL</a>
+        <a href="export/VS_Vsig_vkBw.stl">STL</a><br />
+        <a href="export/VS_Vsig_vkBw.step">STEP</a><br />
       </td>
     </tr>
   </tbody>
