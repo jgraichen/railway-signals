@@ -1,3 +1,11 @@
 #!/usr/bin/env make -f
 
-include ../Makefile
+TOPTARGETS := all stl step clean clean-png
+
+SUBDIRS := $(dir $(wildcard */Makefile))
+
+$(TOPTARGETS): $(SUBDIRS)
+$(SUBDIRS):
+	$(MAKE) -C $@ $(MAKECMDGOALS)
+
+.PHONY: $(TOPTARGETS) $(SUBDIRS)

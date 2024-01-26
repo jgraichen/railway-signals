@@ -1,3 +1,3 @@
 #!/usr/bin/env make -f
 
-include ../../Makefile
+include ../../bin/fcstd.Makefile

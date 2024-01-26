@@ -12,16 +12,18 @@
   </thead>
   <tbody>
     <tr>
-      <td width="200"><img src='png/ZS_Zs3_4-front.png' /></td>
-      <td width="200"><img src='png/ZS_Zs3_4_NR-front.png' /></td>
+      <td width="200"><img src='export/ZS_Zs3_4-front.png' /></td>
+      <td width="200"><img src='export/ZS_Zs3_4_NR-front.png' /></td>
       <td>
         <ul>
           <li>40 km/h</li>
         </ul>
       </td>
       <td>
-        <a href="stl/ZS_Zs3_4.stl">STL</a><br />
-        <a href="stl/ZS_Zs3_4_NR.stl">STL&nbsp;(mit&nbsp;Nummer)</a><br />
+        <a href="export/ZS_Zs3_4.stl">STL</a><br />
+        <a href="export/ZS_Zs3_4_NR.stl">STL&nbsp;(mit&nbsp;Nummer)</a><br />
+        <a href="export/ZS_Zs3_4.step">STEP</a><br />
+        <a href="export/ZS_Zs3_4_NR.step">STEP&nbsp;(mit&nbsp;Nummer)</a><br />
       </td>
     </tr>
   </tbody>
@@ -40,14 +42,15 @@
   <tbody>
     <tr>
       <td width="200"></td>
-      <td width="200"><img src='png/ZS_Zs6_NR-front.png' /></td>
+      <td width="200"><img src='export/ZS_Zs6_NR-front.png' /></td>
       <td>
         <ul>
           <li>Zs6</li>
         </ul>
       </td>
       <td>
-        <a href="stl/ZS_Zs6_NR.stl">STL&nbsp;(mit&nbsp;Nummer)</a>
+        <a href="export/ZS_Zs6_NR.stl">STL&nbsp;(mit&nbsp;Nummer)</a>
+        <a href="export/ZS_Zs6_NR.step">STEP&nbsp;(mit&nbsp;Nummer)</a>
       </td>
     </tr>
   </tbody>
