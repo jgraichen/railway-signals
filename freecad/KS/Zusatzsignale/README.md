@@ -22,8 +22,6 @@
       <td>
         <a href="export/ZS_Zs3_4.stl">STL</a><br />
         <a href="export/ZS_Zs3_4_NR.stl">STL&nbsp;(mit&nbsp;Nummer)</a><br />
-        <a href="export/ZS_Zs3_4.step">STEP</a><br />
-        <a href="export/ZS_Zs3_4_NR.step">STEP&nbsp;(mit&nbsp;Nummer)</a><br />
       </td>
     </tr>
   </tbody>
@@ -50,7 +48,6 @@
       </td>
       <td>
         <a href="export/ZS_Zs6_NR.stl">STL&nbsp;(mit&nbsp;Nummer)</a>
-        <a href="export/ZS_Zs6_NR.step">STEP&nbsp;(mit&nbsp;Nummer)</a>
       </td>
     </tr>
   </tbody>

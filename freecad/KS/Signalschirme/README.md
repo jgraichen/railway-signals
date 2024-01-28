@@ -23,8 +23,6 @@
       <td>
         <a href="export/MS_Sh1.stl">STL</a><br />
         <a href="export/MS_Zs_Sh1.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Sh1.step">STEP</a><br />
-        <a href="export/MS_Zs_Sh1.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -41,8 +39,6 @@
       <td>
         <a href="export/MS_Sh1_vkBw.stl">STL</a><br />
         <a href="export/MS_Zs_Sh1_vkBw.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Sh1_vkBw.step">STEP</a><br />
-        <a href="export/MS_Zs_Sh1_vkBw.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -56,8 +52,6 @@
       <td>
         <a href="export/MS_Zs7.stl">STL</a><br />
         <a href="export/MS_Zs_Zs7.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs7.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs7.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -73,8 +67,6 @@
       <td>
         <a href="export/MS_Zs7_vkBw.stl">STL</a><br />
         <a href="export/MS_Zs_Zs7_vkBw.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs7_vkBw.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs7_vkBw.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -89,8 +81,6 @@
       <td>
         <a href="export/MS_Zs7_Zs1.stl">STL</a><br />
         <a href="export/MS_Zs_Zs7_Zs1.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs7_Zs1.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs7_Zs1.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -107,8 +97,6 @@
       <td>
         <a href="export/MS_Zs7_Zs1_vkBw.stl">STL</a><br />
         <a href="export/MS_Zs_Zs7_Zs1_vkBw.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs7_Zs1_vkBw.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs7_Zs1_vkBw.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -123,8 +111,6 @@
       <td>
         <a href="export/MS_Zs7_Zs1m.stl">STL</a><br />
         <a href="export/MS_Zs_Zs7_Zs1m.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs7_Zs1m.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs7_Zs1m.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -141,8 +127,6 @@
       <td>
         <a href="export/MS_Zs7_Zs1m_vkBw.stl">STL</a><br />
         <a href="export/MS_Zs_Zs7_Zs1m_vkBw.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs7_Zs1m_vkBw.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs7_Zs1m_vkBw.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -156,8 +140,6 @@
       <td>
         <a href="export/MS_Zs1.stl">STL</a><br />
         <a href="export/MS_Zs_Zs1.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs1.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs1.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
     <tr>
@@ -173,8 +155,6 @@
       <td>
         <a href="export/MS_Zs1_vkBw.stl">STL</a><br />
         <a href="export/MS_Zs_Zs1_vkBw.stl">STL&nbsp;(Zs&nbsp;oben)</a><br />
-        <a href="export/MS_Zs1_vkBw.step">STEP</a><br />
-        <a href="export/MS_Zs_Zs1_vkBw.step">STEP&nbsp;(Zs&nbsp;oben)</a><br />
       </td>
     </tr>
   </tbody>
@@ -196,7 +176,6 @@
       <td></td>
       <td>
         <a href="export/VS_Vsig.stl">STL</a><br />
-        <a href="export/VS_Vsig.step">STEP</a><br />
       </td>
     </tr>
     <tr>
@@ -208,7 +187,6 @@
       </td>
       <td>
         <a href="export/VS_Vsig_Wd.stl">STL</a><br />
-        <a href="export/VS_Vsig_Wd.step">STEP</a><br />
       </td>
     </tr>
     <tr>
@@ -220,7 +198,6 @@
       </td>
       <td>
         <a href="export/VS_Vsig_vkBw.stl">STL</a><br />
-        <a href="export/VS_Vsig_vkBw.step">STEP</a><br />
       </td>
     </tr>
   </tbody>

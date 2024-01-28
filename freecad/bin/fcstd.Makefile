@@ -7,7 +7,7 @@ TGT_STEP = $(join $(addsuffix export/, $(dir $(FCS))), $(notdir $(FCS:.FCStd=.st
 
 export PATH := $(dir $(abspath $(lastword $(MAKEFILE_LIST)))):$(PATH)
 
-all: stl step
+all: stl
 stl: $(TGT_STL)
 step: $(TGT_STEP)
 
