@@ -1,6 +1,6 @@
 # WS2811 LED Driver 9LS
 
-A WS2811 LED driver board compatible with [MGP signal decoders](http://www.mollehem.se/index.php/en/signals/signal-decoders/signaldecoder-de10-detail) and the [Wattenscheider signal mount](https://www.fremo-net.eu/index.php?id=339).
+A WS2811 LED driver board compatible with [MGP signal decoders](http://www.mollehem.se/index.php/en/signals/signal-decoders/signaldecoder-de10-detail).
 
 This LED driver board provides 8 LEDs via two 2x3p 1.27 mm pitch connectors, intended for up to two German light switching signals.
 
