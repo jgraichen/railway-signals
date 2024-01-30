@@ -16,7 +16,7 @@ Supports bypassing ports and looping back the digital signal to organize and opt
 
 ## WS2811 Driver 24 (2 Signals)
 
-[![](ws2811-driver-12/images/preview.png)](ws2811-driver-24/)
+[![](ws2811-driver-24/images/preview.png)](ws2811-driver-24/)
 
 A [24 LED driver board](ws2811-driver-24/) for up to two fully equipped German KS signal, usually mounted on a signal gantry. Can be mounted in a [Wattenscheider Schacht](../../freecad/watti-signal-mount/).
 
