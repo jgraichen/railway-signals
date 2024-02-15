@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+if command -v freecadcmd &> /dev/null
+then
+    CMD=freecadcmd
+elif command -v FreeCADCmd &> /dev/null
+then
+    CMD=FreeCADCmd
+elif command -v freecad.cmd &> /dev/null
+then
+    CMD=freecad.cmd
+else
+    echo "FreeCAD CMD not found. Abort." >> /dev/stderr
+    exit 1
+fi
+
+exec "$CMD" "$@"

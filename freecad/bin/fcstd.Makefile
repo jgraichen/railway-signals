@@ -5,7 +5,8 @@ FCS = $(shell find . -type f -name '*.FCStd' -not -path '*/parts/*' | sort)
 TGT_STL = $(join $(addsuffix export/, $(dir $(FCS))), $(notdir $(FCS:.FCStd=.stl)))
 TGT_STEP = $(join $(addsuffix export/, $(dir $(FCS))), $(notdir $(FCS:.FCStd=.step)))
 
-export PATH := $(dir $(abspath $(lastword $(MAKEFILE_LIST)))):$(PATH)
+BIN := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+export PATH := $(BIN):$(PATH)
 
 all: stl
 stl: $(TGT_STL)
@@ -14,11 +15,11 @@ step: $(TGT_STEP)
 list:
 	@echo $(FCS) | xargs -n1 echo
 
-export/%.stl: %.FCStd
-	fcstd-export "$^" -f stl -o "$@"
+export/%.stl &: %.FCStd
+	fcc "$^" "$(BIN)/export.py" --pass "$@" > /dev/null
 
 export/%.step: %.FCStd
-	fcstd-export "$^" -f step -o "$@"
+	fcc "$^" "$(BIN)/export.py" --pass "$@" > /dev/null
 
 clean:
 	rm -f $(TGT_STL)
