@@ -271,27 +271,27 @@
   <tbody>
     <tr>
       <td width="200" align="center">
-        <img src="export/VS_Vsig-front.png">
+        <img src="export/VS-front.png">
         <br>
-        <a href="export/VS_Vsig.step">STEP</a> · <a href="export/VS_Vsig.stl">STL</a>
+        <a href="export/VS.step">STEP</a> · <a href="export/VS.stl">STL</a>
       </td>
       <td width="200" align="center"></td>
       <td>
         <p>
-          <em>VS_Vsig</em>
+          <em>VS</em>
         </p>
       </td>
     </tr>
     <tr>
       <td width="200" align="center">
-        <img src="export/VS_Vsig_Wd-front.png">
+        <img src="export/VS_Wd-front.png">
         <br>
-        <a href="export/VS_Vsig_Wd.step">STEP</a> · <a href="export/VS_Vsig_Wd.stl">STL</a>
+        <a href="export/VS_Wd.step">STEP</a> · <a href="export/VS_Wd.stl">STL</a>
       </td>
       <td width="200" align="center"></td>
       <td>
         <p>
-          <em>VS_Vsig_Wd</em>
+          <em>VS_Wd</em>
         </p>
         <ul>
           <li>Wiederholer</li>
@@ -300,14 +300,14 @@
     </tr>
     <tr>
       <td width="200" align="center">
-        <img src="export/VS_Vsig_vBw-front.png">
+        <img src="export/VS_vBw-front.png">
         <br>
-        <a href="export/VS_Vsig_vBw.step">STEP</a> · <a href="export/VS_Vsig_vBw.stl">STL</a>
+        <a href="export/VS_vBw.step">STEP</a> · <a href="export/VS_vBw.stl">STL</a>
       </td>
       <td width="200" align="center"></td>
       <td>
         <p>
-          <em>VS_Vsig_vBw</em>
+          <em>VS_vBw</em>
         </p>
         <ul>
           <li>Verkürzter Bremswegabstand</li>

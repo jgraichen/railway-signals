@@ -43,8 +43,8 @@ ms:
     - Verkürzter Bremswegabstand
 
 vs:
-  VS_Vsig:
-  VS_Vsig_Wd:
+  VS:
+  VS_Wd:
     - Wiederholer
-  VS_Vsig_vBw:
+  VS_vBw:
     - Verkürzter Bremswegabstand
