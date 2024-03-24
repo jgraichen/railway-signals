@@ -1,0 +1,54 @@
+---
+licht:
+  ZS_Zs3_4:
+    files:
+      - ZS_Zs3_4
+      - ZS_Zs3_4_NR
+    notes:
+      - 40 km/h
+
+  ZS_Zs6:
+    files:
+      - ~
+      - ZS_Zs6_NR
+    notes:
+      - Gegengleisanzeiger
+
+fest:
+  default:
+    columns: 1
+    width: 280
+    images: ["export/{name}-front.png", "export/{name}-axo.png"]
+
+  ZS_Zs3_Fest:
+    notes:
+      - Zs3
+
+  ZS_Zs3v_Fest:
+    notes:
+      - Zs3v
+
+  ZS_Zs6_Fest_NR:
+    notes:
+      - Gegengleisanzeiger
+
+aux:
+  default:
+    columns: 1
+    width: 280
+    images: ["export/{name}-front.png", "export/{name}-axo.png"]
+
+  ZS_Halterung:
+    - Halterung für Zusatzsignale am Mast
+
+  ZS_Diffusor_96um:
+    - Diffusor für Lichtzusatzsignale
+    - 96µm (empfohlen)
+
+  ZS_Diffusor_72um:
+    - Diffusor für Lichtzusatzsignale
+    - 72µm
+
+  ZS_Diffusor_48um:
+    - Diffusor für Lichtzusatzsignale
+    - 48µm

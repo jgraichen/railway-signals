@@ -1,6 +1,6 @@
 #!/usr/bin/env make -f
 
-TOPTARGETS := all stl step clean clean-png
+TOPTARGETS := all stl step clean clean-png README.md
 
 SUBDIRS := $(dir $(wildcard */Makefile))
 

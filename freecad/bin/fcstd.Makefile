@@ -1,4 +1,5 @@
 #!/usr/bin/env make -f
+# vim: ft=makefile
 
 FCS = $(shell find . -type f -name '*.FCStd' -not -path '*/parts/*' | sort)
 
@@ -8,7 +9,7 @@ TGT_STEP = $(join $(addsuffix export/, $(dir $(FCS))), $(notdir $(FCS:.FCStd=.st
 BIN := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 export PATH := $(BIN):$(PATH)
 
-all: stl
+all: stl step README.md
 stl: $(TGT_STL)
 step: $(TGT_STEP)
 
@@ -16,10 +17,13 @@ list:
 	@echo $(FCS) | xargs -n1 echo
 
 export/%.stl &: %.FCStd
-	fcc "$^" "$(BIN)/export.py" --pass "$@" > /dev/null
+	fcc "$^" "$(BIN)export.py" --pass "$@" > /dev/null
 
 export/%.step: %.FCStd
-	fcc "$^" "$(BIN)/export.py" --pass "$@" > /dev/null
+	fcc "$^" "$(BIN)export.py" --pass "$@" > /dev/null
+
+README.md: readme.data.yaml readme.in.md $(FCS) $(BIN)readme.py
+	$(BIN)readme.py $^ $@
 
 clean:
 	rm -f $(TGT_STL)

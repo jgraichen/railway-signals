@@ -17,8 +17,17 @@ def createElement(parent: ET.Element, tag, text=None, tail=None, **attrib):
     return el
 
 
-def generate_preview(td, name):
-    createElement(td, "img", src=f"export/{name}-front.png")
+def generate_preview(td, name, default):
+    count = len(default["images"])
+    if count < 2:
+        for pattern in default["images"]:
+            createElement(td, "img", src=pattern.format(name=name))
+    else:
+        for pattern in default["images"]:
+            createElement(
+                td, "img", src=pattern.format(name=name), width=f"{90 / count}%"
+            )
+
     createElement(td, "br")
     createElement(td, "a", href=f"export/{name}.step", text="STEP", tail=" · ")
     createElement(td, "a", href=f"export/{name}.stl", text="STL")
@@ -26,34 +35,46 @@ def generate_preview(td, name):
 
 
 def generate(data, section="default"):
-    root = ET.Element("table")
+    root = ET.Element("table", width="100%")
     thead = createElement(root, "thead")
     tbody = createElement(root, "tbody")
 
+    config = data.get(section, {})
+    default = {
+        "columns": 2,
+        "width": 130,
+        "images": ["export/{name}-front.png"],
+    }
+    if "default" in config:
+        default |= config.pop("default")
+
     thr = createElement(thead, "tr")
-    createElement(thr, "th", colspan="2", text="Vorschau")
+    createElement(thr, "th", colspan=f"{default['columns']}", text="Vorschau")
     createElement(thr, "th", text="Anmerkungen")
 
-    for key, notes in data.get(section, {}).items():
+    for key, data in config.items():
         tr = createElement(tbody, "tr")
 
-        if path.isfile(f"{key}__A.FCStd") or path.isfile(f"{key}__B.FCStd"):
-            td = createElement(tr, "td", width="130", align="center")
-            if path.isfile(f"{key}__A.FCStd"):
-                generate_preview(td, f"{key}__A")
+        if isinstance(data, list):
+            data = {"notes": data}
 
-            td = createElement(tr, "td", width="130", align="center")
-            if path.isfile(f"{key}__B.FCStd"):
-                generate_preview(td, f"{key}__B")
-        else:
-            td = createElement(tr, "td", width="130", align="center")
-            generate_preview(td, key)
-            createElement(tr, "td")
+        if "files" not in data:
+            if path.isfile(f"{key}__A.FCStd") or path.isfile(f"{key}__B.FCStd"):
+                data["files"] = [f"{key}__A", f"{key}__B"]
+            else:
+                data["files"] = [f"{key}"]
+
+        for idx in range(default["columns"]):
+            td = createElement(tr, "td", width=f"{default['width']}", align="center")
+            if len(data["files"]) > idx:
+                file = data["files"][idx]
+                if path.isfile(f"{file}.FCStd"):
+                    generate_preview(td, file, default)
 
         td = createElement(tr, "td")
-        if notes:
+        if data["notes"]:
             ul = createElement(td, "ul")
-            for note in notes:
+            for note in data["notes"]:
                 createElement(ul, "li", text=note)
 
     ET.indent(root)
