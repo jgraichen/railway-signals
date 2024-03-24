@@ -1,33 +1,27 @@
-# German KS signals
+# German model railway signals
 
-Components and parts to build German KS signals for model railroads for H0 (1:87)
+<em lang="en">This repository contains 3d models, parts, and electronic components and boards to build german railway signals for H0 model railroading.</em>
 
-## Signals
+## Signalkomponenten
 
-### Hauptsignal
+- [Masten, Körbe, Zubehör](freecad/KS/Masten/README.md)
+- [KS-Signalschirme](freecad/KS/Signalschirme/README.md)
+  - [PCB für Hauptsignale](kicad/Hauptsignal/README.md)
+  - [PCB für Mehrabschnittssignale](kicad/Mehrabschnittssignal/README.md)
+  - [PCB für Vorsignale](kicad/Vorsignal/README.md)
+- [Zusatzsignale](freecad/KS/Zusatzsignale/README.md)
+  - [PCB für Zusatzsignale](kicad/Zusatzsignal/README.md)
 
-- [main signal board (PCB)](kicad/Hauptsignal/README.md)
+## Zubehör
 
-### Mehrabschnittssignal
+### Signal-Treiberplatinen
 
-- [main signal board (PCB)](kicad/Mehrabschnittssignal/README.md)
-
-### Vorsignal
-
-- [main signal board (PCB)](kicad/Vorsignal/README.md)
-
-### Zusatzsignal
-
-- [main signal board (PCB)](kicad/Zusatzsignal/README.md)
-
-## Additional components
-
-### WS2811 LED driver
-
-- [Adapter board](kicad/extra/ws2811-adapter/README.md)
-- [12 LED driver](kicad/extra/ws2811-driver-12/README.md)
-- [24 LED driver](kicad/extra/ws2811-driver-24/README.md)
-- ["Wattenscheider Schacht" for LED driver boards](freecad/watti-signal-mount/README.md)
+- [Adapterplatine für MGP Signaldekoder](kicad/extra/ws2811-adapter/README.md)
+- [LED Treiberboard für ein wechselbares Lichtsperrsignal](kicad/extra/ws2811-driver-6l/README.md)
+- [LED Treiberboard für zwei wechselbare Lichtsperrsignale](kicad/extra/ws2811-driver-9l/README.md)
+- [12 LED Treiberboard (1 Signal)](kicad/extra/ws2811-driver-12/README.md)
+- [24 LED Treiberboard (2 Signale)](kicad/extra/ws2811-driver-24/README.md)
+- [Wattenscheider Schacht für LED Treiberboards](freecad/watti-signal-mount/README.md)
 
 ## License
 
