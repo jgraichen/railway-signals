@@ -12,12 +12,12 @@
   </thead>
   <tbody>
     <tr>
-      <td width="130" align="center">
+      <td width="200" align="center">
         <img src="export/ZS_Zs3_4-front.png">
         <br>
         <a href="export/ZS_Zs3_4.step">STEP</a> · <a href="export/ZS_Zs3_4.stl">STL</a>
       </td>
-      <td width="130" align="center">
+      <td width="200" align="center">
         <img src="export/ZS_Zs3_4_NR-front.png">
         <br>
         <a href="export/ZS_Zs3_4_NR.step">STEP</a> · <a href="export/ZS_Zs3_4_NR.stl">STL</a>
@@ -29,8 +29,8 @@
       </td>
     </tr>
     <tr>
-      <td width="130" align="center"></td>
-      <td width="130" align="center">
+      <td width="200" align="center"></td>
+      <td width="200" align="center">
         <img src="export/ZS_Zs6_NR-front.png">
         <br>
         <a href="export/ZS_Zs6_NR.step">STEP</a> · <a href="export/ZS_Zs6_NR.stl">STL</a>
@@ -55,7 +55,7 @@
   </thead>
   <tbody>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Zs3_Fest-front.png" width="45.0%">
         <img src="export/ZS_Zs3_Fest-axo.png" width="45.0%">
         <br>
@@ -68,7 +68,7 @@
       </td>
     </tr>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Zs3v_Fest-front.png" width="45.0%">
         <img src="export/ZS_Zs3v_Fest-axo.png" width="45.0%">
         <br>
@@ -81,7 +81,7 @@
       </td>
     </tr>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Zs6_Fest_NR-front.png" width="45.0%">
         <img src="export/ZS_Zs6_Fest_NR-axo.png" width="45.0%">
         <br>
@@ -107,7 +107,7 @@
   </thead>
   <tbody>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Halterung-front.png" width="45.0%">
         <img src="export/ZS_Halterung-axo.png" width="45.0%">
         <br>
@@ -120,7 +120,7 @@
       </td>
     </tr>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Diffusor_96um-front.png" width="45.0%">
         <img src="export/ZS_Diffusor_96um-axo.png" width="45.0%">
         <br>
@@ -134,7 +134,7 @@
       </td>
     </tr>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Diffusor_72um-front.png" width="45.0%">
         <img src="export/ZS_Diffusor_72um-axo.png" width="45.0%">
         <br>
@@ -148,7 +148,7 @@
       </td>
     </tr>
     <tr>
-      <td width="280" align="center">
+      <td width="410" align="center">
         <img src="export/ZS_Diffusor_48um-front.png" width="45.0%">
         <img src="export/ZS_Diffusor_48um-axo.png" width="45.0%">
         <br>

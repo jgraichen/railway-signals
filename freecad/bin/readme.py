@@ -42,7 +42,7 @@ def generate(data, section="default"):
     config = data.get(section, {})
     default = {
         "columns": 2,
-        "width": 130,
+        "width": 200,
         "images": ["export/{name}-front.png"],
     }
     if "default" in config:
@@ -55,6 +55,8 @@ def generate(data, section="default"):
     for key, data in config.items():
         tr = createElement(tbody, "tr")
 
+        if not data:
+            data = {}
         if isinstance(data, list):
             data = {"notes": data}
 
@@ -66,13 +68,14 @@ def generate(data, section="default"):
 
         for idx in range(default["columns"]):
             td = createElement(tr, "td", width=f"{default['width']}", align="center")
-            if len(data["files"]) > idx:
-                file = data["files"][idx]
+            files = data.get('files', [])
+            if len(files) > idx:
+                file = files[idx]
                 if path.isfile(f"{file}.FCStd"):
                     generate_preview(td, file, default)
 
         td = createElement(tr, "td")
-        if data["notes"]:
+        if "notes" in data:
             ul = createElement(td, "ul")
             for note in data["notes"]:
                 createElement(ul, "li", text=note)

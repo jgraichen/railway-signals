@@ -17,7 +17,7 @@ licht:
 fest:
   default:
     columns: 1
-    width: 280
+    width: 410
     images: ["export/{name}-front.png", "export/{name}-axo.png"]
 
   ZS_Zs3_Fest:
@@ -35,7 +35,7 @@ fest:
 aux:
   default:
     columns: 1
-    width: 280
+    width: 410
     images: ["export/{name}-front.png", "export/{name}-axo.png"]
 
   ZS_Halterung:

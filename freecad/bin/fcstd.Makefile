@@ -22,8 +22,8 @@ export/%.stl &: %.FCStd
 export/%.step: %.FCStd
 	fcc "$^" "$(BIN)export.py" --pass "$@" > /dev/null
 
-README.md: readme.data.yaml readme.in.md $(FCS) $(BIN)readme.py
-	$(BIN)readme.py $^ $@
+README.md: readme.data.yaml readme.in.md $(BIN)readme.py
+	$(BIN)readme.py readme.data.yaml readme.in.md README.md
 
 clean:
 	rm -f $(TGT_STL)
