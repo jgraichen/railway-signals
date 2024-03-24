@@ -1,0 +1,50 @@
+# vim: ft=yaml:ts=2
+---
+ms:
+  MS:
+  MS_vBw:
+    - Kennlicht
+    - Verkürzter Bremswegabstand
+  MS_Sh1:
+    - Rangiersignal
+    - Ersatzsignal
+  MS_Sh1_vBw:
+    - Kennlicht
+    - Rangiersignal
+    - Ersatzsignal
+    - Verkürzter Bremswegabstand
+  MS_Zs1:
+    - Ersatzsignal
+  MS_Zs1_vBw:
+    - Kennlicht
+    - Ersatzsignal
+    - Verkürzter Bremswegabstand
+  MS_Zs7:
+    - Vorsichtssignal
+  MS_Zs7_vBw:
+    - Kennlicht
+    - Vorsichtssignal
+    - Verkürzter Bremswegabstand
+  MS_Zs7_Zs1:
+    - Vorsichtssignal
+    - Ersatzsignal (links unten)
+  MS_Zs7_Zs1_vBw:
+    - Kennlicht
+    - Vorsichtssignal
+    - Ersatzsignal (links unten)
+    - Verkürzter Bremswegabstand
+  MS_Zs7_Zs1m:
+    - Vorsichtssignal
+    - Ersatzsignal (mittig)
+  MS_Zs7_Zs1m_vBw:
+    - Kennlicht
+    - Vorsichtssignal
+    - Ersatzsignal (mittig)
+    - Verkürzter Bremswegabstand
+
+vs:
+  VS_Vsig:
+  VS_Vsig_Wd:
+    - Wiederholer
+  VS_Vsig_vBw:
+    - Verkürzter Bremswegabstand
