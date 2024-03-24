@@ -23,6 +23,9 @@
         <a href="export/ZS_Zs3_4_NR.step">STEP</a> · <a href="export/ZS_Zs3_4_NR.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Zs3_4</em>
+        </p>
         <ul>
           <li>40 km/h</li>
         </ul>
@@ -36,6 +39,9 @@
         <a href="export/ZS_Zs6_NR.step">STEP</a> · <a href="export/ZS_Zs6_NR.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Zs6</em>
+        </p>
         <ul>
           <li>Gegengleisanzeiger</li>
         </ul>
@@ -62,6 +68,9 @@
         <a href="export/ZS_Zs3_Fest.step">STEP</a> · <a href="export/ZS_Zs3_Fest.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Zs3_Fest</em>
+        </p>
         <ul>
           <li>Zs3</li>
         </ul>
@@ -75,6 +84,9 @@
         <a href="export/ZS_Zs3v_Fest.step">STEP</a> · <a href="export/ZS_Zs3v_Fest.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Zs3v_Fest</em>
+        </p>
         <ul>
           <li>Zs3v</li>
         </ul>
@@ -88,6 +100,9 @@
         <a href="export/ZS_Zs6_Fest_NR.step">STEP</a> · <a href="export/ZS_Zs6_Fest_NR.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Zs6_Fest_NR</em>
+        </p>
         <ul>
           <li>Gegengleisanzeiger</li>
         </ul>
@@ -114,6 +129,9 @@
         <a href="export/ZS_Halterung.step">STEP</a> · <a href="export/ZS_Halterung.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Halterung</em>
+        </p>
         <ul>
           <li>Halterung für Zusatzsignale am Mast</li>
         </ul>
@@ -127,6 +145,9 @@
         <a href="export/ZS_Diffusor_96um.step">STEP</a> · <a href="export/ZS_Diffusor_96um.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Diffusor_96um</em>
+        </p>
         <ul>
           <li>Diffusor für Lichtzusatzsignale</li>
           <li>96µm (empfohlen)</li>
@@ -141,6 +162,9 @@
         <a href="export/ZS_Diffusor_72um.step">STEP</a> · <a href="export/ZS_Diffusor_72um.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Diffusor_72um</em>
+        </p>
         <ul>
           <li>Diffusor für Lichtzusatzsignale</li>
           <li>72µm</li>
@@ -155,6 +179,9 @@
         <a href="export/ZS_Diffusor_48um.step">STEP</a> · <a href="export/ZS_Diffusor_48um.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>ZS_Diffusor_48um</em>
+        </p>
         <ul>
           <li>Diffusor für Lichtzusatzsignale</li>
           <li>48µm</li>

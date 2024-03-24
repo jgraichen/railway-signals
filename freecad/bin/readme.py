@@ -68,13 +68,14 @@ def generate(data, section="default"):
 
         for idx in range(default["columns"]):
             td = createElement(tr, "td", width=f"{default['width']}", align="center")
-            files = data.get('files', [])
+            files = data.get("files", [])
             if len(files) > idx:
                 file = files[idx]
                 if path.isfile(f"{file}.FCStd"):
                     generate_preview(td, file, default)
 
         td = createElement(tr, "td")
+        createElement(createElement(td, "p"), "em", key)
         if "notes" in data:
             ul = createElement(td, "ul")
             for note in data["notes"]:

@@ -17,7 +17,11 @@
         <br>
         <a href="export/MS__B.step">STEP</a> · <a href="export/MS__B.stl">STL</a>
       </td>
-      <td></td>
+      <td>
+        <p>
+          <em>MS</em>
+        </p>
+      </td>
     </tr>
     <tr>
       <td width="200" align="center"></td>
@@ -27,6 +31,9 @@
         <a href="export/MS_vBw__B.step">STEP</a> · <a href="export/MS_vBw__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_vBw</em>
+        </p>
         <ul>
           <li>Kennlicht</li>
           <li>Verkürzter Bremswegabstand</li>
@@ -45,6 +52,9 @@
         <a href="export/MS_Sh1__B.step">STEP</a> · <a href="export/MS_Sh1__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Sh1</em>
+        </p>
         <ul>
           <li>Rangiersignal</li>
           <li>Ersatzsignal</li>
@@ -63,6 +73,9 @@
         <a href="export/MS_Sh1_vBw__B.step">STEP</a> · <a href="export/MS_Sh1_vBw__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Sh1_vBw</em>
+        </p>
         <ul>
           <li>Kennlicht</li>
           <li>Rangiersignal</li>
@@ -83,6 +96,9 @@
         <a href="export/MS_Zs1__B.step">STEP</a> · <a href="export/MS_Zs1__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs1</em>
+        </p>
         <ul>
           <li>Ersatzsignal</li>
         </ul>
@@ -100,6 +116,9 @@
         <a href="export/MS_Zs1_vBw__B.step">STEP</a> · <a href="export/MS_Zs1_vBw__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs1_vBw</em>
+        </p>
         <ul>
           <li>Kennlicht</li>
           <li>Ersatzsignal</li>
@@ -119,6 +138,9 @@
         <a href="export/MS_Zs7__B.step">STEP</a> · <a href="export/MS_Zs7__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs7</em>
+        </p>
         <ul>
           <li>Vorsichtssignal</li>
         </ul>
@@ -136,6 +158,9 @@
         <a href="export/MS_Zs7_vBw__B.step">STEP</a> · <a href="export/MS_Zs7_vBw__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs7_vBw</em>
+        </p>
         <ul>
           <li>Kennlicht</li>
           <li>Vorsichtssignal</li>
@@ -155,6 +180,9 @@
         <a href="export/MS_Zs7_Zs1__B.step">STEP</a> · <a href="export/MS_Zs7_Zs1__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs7_Zs1</em>
+        </p>
         <ul>
           <li>Vorsichtssignal</li>
           <li>Ersatzsignal (links unten)</li>
@@ -173,6 +201,9 @@
         <a href="export/MS_Zs7_Zs1_vBw__B.step">STEP</a> · <a href="export/MS_Zs7_Zs1_vBw__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs7_Zs1_vBw</em>
+        </p>
         <ul>
           <li>Kennlicht</li>
           <li>Vorsichtssignal</li>
@@ -193,6 +224,9 @@
         <a href="export/MS_Zs7_Zs1m__B.step">STEP</a> · <a href="export/MS_Zs7_Zs1m__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs7_Zs1m</em>
+        </p>
         <ul>
           <li>Vorsichtssignal</li>
           <li>Ersatzsignal (mittig)</li>
@@ -211,6 +245,9 @@
         <a href="export/MS_Zs7_Zs1m_vBw__B.step">STEP</a> · <a href="export/MS_Zs7_Zs1m_vBw__B.stl">STL</a>
       </td>
       <td>
+        <p>
+          <em>MS_Zs7_Zs1m_vBw</em>
+        </p>
         <ul>
           <li>Kennlicht</li>
           <li>Vorsichtssignal</li>
@@ -239,7 +276,11 @@
         <a href="export/VS_Vsig.step">STEP</a> · <a href="export/VS_Vsig.stl">STL</a>
       </td>
       <td width="200" align="center"></td>
-      <td></td>
+      <td>
+        <p>
+          <em>VS_Vsig</em>
+        </p>
+      </td>
     </tr>
     <tr>
       <td width="200" align="center">
@@ -249,6 +290,9 @@
       </td>
       <td width="200" align="center"></td>
       <td>
+        <p>
+          <em>VS_Vsig_Wd</em>
+        </p>
         <ul>
           <li>Wiederholer</li>
         </ul>
@@ -262,6 +306,9 @@
       </td>
       <td width="200" align="center"></td>
       <td>
+        <p>
+          <em>VS_Vsig_vBw</em>
+        </p>
         <ul>
           <li>Verkürzter Bremswegabstand</li>
         </ul>

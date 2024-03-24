@@ -1,0 +1,54 @@
+---
+gittermasten:
+  default:
+    columns: 1
+    width: 410
+    images: ["export/{name}-front.png", "export/{name}-axo.png"]
+
+  Gittermast_60_2ZS:
+    - Zwei Zusatzsignale
+
+auslegermasten:
+  default:
+    columns: 1
+    width: 410
+    images: ["export/{name}-front.png", "export/{name}-axo.png"]
+
+  Auslegermast_38_40:
+    - 40er Ausleger
+  Auslegermast_38_80:
+    - 80er Ausleger
+  Auslegermast_48_40:
+    - 40er Ausleger
+  Auslegermast_48_80:
+    - 80er Ausleger
+  Ausleger_Signalmast_1ZS:
+  Ausleger_Signalmast_2ZS:
+
+mastschilder:
+  default:
+    columns: 1
+    width: 410
+    images: ["export/{name}-front.png", "export/{name}-axo.png"]
+
+  Mastschild_16_MS:
+  Mastschild_16_VS:
+  Mastschild_26_MS:
+  Mastschild_26_VS:
+
+aux:
+  default:
+    columns: 1
+    width: 410
+    images: ["export/{name}-front.png", "export/{name}-axo.png"]
+
+  Mast_Korb_1:
+  Mast_Auslegerkorb_40:
+    - 40er Auslegerkorb
+  Mast_Auslegerkorb_80:
+    - 80er Auslegerkorb
+  Leiter_16:
+  Leiter_16_0504:
+  Leiter_26:
+  Leiter_26_0504:
+  Technik_1:
