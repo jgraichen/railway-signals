@@ -17,8 +17,8 @@
 ### Signal-Treiberplatinen
 
 - [Adapterplatine für MGP Signaldekoder](kicad/extra/ws2811-adapter/README.md)
-- [LED Treiberboard für ein wechselbares Lichtsperrsignal](kicad/extra/ws2811-driver-6l/README.md)
-- [LED Treiberboard für zwei wechselbare Lichtsperrsignale](kicad/extra/ws2811-driver-9l/README.md)
+- [LED Treiberboard für ein wechselbares Lichtsperrsignal](kicad/extra/ws2811-driver-6ls/README.md)
+- [LED Treiberboard für zwei wechselbare Lichtsperrsignale](kicad/extra/ws2811-driver-9ls/README.md)
 - [12 LED Treiberboard (1 Signal)](kicad/extra/ws2811-driver-12/README.md)
 - [24 LED Treiberboard (2 Signale)](kicad/extra/ws2811-driver-24/README.md)
 - [Wattenscheider Schacht für LED Treiberboards](freecad/watti-signal-mount/README.md)
