@@ -14,16 +14,8 @@ auslegermasten:
     width: 410
     images: ["export/{name}-front.png", "export/{name}-axo.png"]
 
-  Auslegermast_38_40:
+  Auslegermast_48_40R_1ZS:
     - 40er Ausleger
-  Auslegermast_38_80:
-    - 80er Ausleger
-  Auslegermast_48_40:
-    - 40er Ausleger
-  Auslegermast_48_80:
-    - 80er Ausleger
-  Ausleger_Signalmast_1ZS:
-  Ausleger_Signalmast_2ZS:
 
 mastschilder:
   default:

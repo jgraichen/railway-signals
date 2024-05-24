@@ -42,92 +42,18 @@
   <tbody>
     <tr>
       <td width="410" align="center">
-        <img src="export/Auslegermast_38_40-front.png" width="45.0%">
-        <img src="export/Auslegermast_38_40-axo.png" width="45.0%">
+        <img src="export/Auslegermast_48_40R_1ZS-front.png" width="45.0%">
+        <img src="export/Auslegermast_48_40R_1ZS-axo.png" width="45.0%">
         <br>
-        <a href="export/Auslegermast_38_40.step">STEP</a> · <a href="export/Auslegermast_38_40.stl">STL</a>
+        <a href="export/Auslegermast_48_40R_1ZS.step">STEP</a> · <a href="export/Auslegermast_48_40R_1ZS.stl">STL</a>
       </td>
       <td>
         <p>
-          <em>Auslegermast_38_40</em>
+          <em>Auslegermast_48_40R_1ZS</em>
         </p>
         <ul>
           <li>40er Ausleger</li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width="410" align="center">
-        <img src="export/Auslegermast_38_80-front.png" width="45.0%">
-        <img src="export/Auslegermast_38_80-axo.png" width="45.0%">
-        <br>
-        <a href="export/Auslegermast_38_80.step">STEP</a> · <a href="export/Auslegermast_38_80.stl">STL</a>
-      </td>
-      <td>
-        <p>
-          <em>Auslegermast_38_80</em>
-        </p>
-        <ul>
-          <li>80er Ausleger</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width="410" align="center">
-        <img src="export/Auslegermast_48_40-front.png" width="45.0%">
-        <img src="export/Auslegermast_48_40-axo.png" width="45.0%">
-        <br>
-        <a href="export/Auslegermast_48_40.step">STEP</a> · <a href="export/Auslegermast_48_40.stl">STL</a>
-      </td>
-      <td>
-        <p>
-          <em>Auslegermast_48_40</em>
-        </p>
-        <ul>
-          <li>40er Ausleger</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width="410" align="center">
-        <img src="export/Auslegermast_48_80-front.png" width="45.0%">
-        <img src="export/Auslegermast_48_80-axo.png" width="45.0%">
-        <br>
-        <a href="export/Auslegermast_48_80.step">STEP</a> · <a href="export/Auslegermast_48_80.stl">STL</a>
-      </td>
-      <td>
-        <p>
-          <em>Auslegermast_48_80</em>
-        </p>
-        <ul>
-          <li>80er Ausleger</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width="410" align="center">
-        <img src="export/Ausleger_Signalmast_1ZS-front.png" width="45.0%">
-        <img src="export/Ausleger_Signalmast_1ZS-axo.png" width="45.0%">
-        <br>
-        <a href="export/Ausleger_Signalmast_1ZS.step">STEP</a> · <a href="export/Ausleger_Signalmast_1ZS.stl">STL</a>
-      </td>
-      <td>
-        <p>
-          <em>Ausleger_Signalmast_1ZS</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="410" align="center">
-        <img src="export/Ausleger_Signalmast_2ZS-front.png" width="45.0%">
-        <img src="export/Ausleger_Signalmast_2ZS-axo.png" width="45.0%">
-        <br>
-        <a href="export/Ausleger_Signalmast_2ZS.step">STEP</a> · <a href="export/Ausleger_Signalmast_2ZS.stl">STL</a>
-      </td>
-      <td>
-        <p>
-          <em>Ausleger_Signalmast_2ZS</em>
-        </p>
       </td>
     </tr>
   </tbody>
