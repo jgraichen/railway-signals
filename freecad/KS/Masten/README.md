@@ -318,5 +318,18 @@
         </p>
       </td>
     </tr>
+    <tr>
+      <td width="410" align="center">
+        <img src="export/Sockel-front.png" width="45.0%">
+        <img src="export/Sockel-axo.png" width="45.0%">
+        <br>
+        <a href="export/Sockel.step">STEP</a> · <a href="export/Sockel.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>Sockel</em>
+        </p>
+      </td>
+    </tr>
   </tbody>
 </table>
