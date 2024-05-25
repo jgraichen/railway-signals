@@ -53,6 +53,24 @@
         </p>
         <ul>
           <li>40er Ausleger</li>
+          <li>Rechts vom Gleis</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="410" align="center">
+        <img src="export/Auslegermast_48_40L_1ZS-front.png" width="45.0%">
+        <img src="export/Auslegermast_48_40L_1ZS-axo.png" width="45.0%">
+        <br>
+        <a href="export/Auslegermast_48_40L_1ZS.step">STEP</a> · <a href="export/Auslegermast_48_40L_1ZS.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>Auslegermast_48_40L_1ZS</em>
+        </p>
+        <ul>
+          <li>40er Ausleger</li>
+          <li>Links vom Gleis</li>
         </ul>
       </td>
     </tr>

@@ -16,6 +16,10 @@ auslegermasten:
 
   Auslegermast_48_40R_1ZS:
     - 40er Ausleger
+    - Rechts vom Gleis
+  Auslegermast_48_40L_1ZS:
+    - 40er Ausleger
+    - Links vom Gleis
 
 mastschilder:
   default:
