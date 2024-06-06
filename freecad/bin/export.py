@@ -8,6 +8,7 @@ Export first root object to STL or STEP.
 import argparse
 import os
 import os.path
+from pprint import pprint
 
 # pylint: disable=import-error,wrong-import-position
 import FreeCAD  # noqa: E402
@@ -19,7 +20,8 @@ FORMAT_PART = ["step", "wrl"]
 
 
 def export(output: str):
-    _, fmt = os.path.splitext(output)
+    _, ext = os.path.splitext(output)
+    fmt = ext.strip(".")
 
     os.makedirs(os.path.dirname(output), exist_ok=True)
 
@@ -28,7 +30,11 @@ def export(output: str):
     # Only export all part features objects from the first root element
     root = doc.RootObjects[0]
 
-    # pprint((root, root.Label, root.TypeId))
+    pprint((root, root.Label, root.TypeId))
+
+    if fmt.lower() in FORMAT_MESH:
+        Mesh.export([root], output)
+        return
 
     if root.isDerivedFrom("Part::Feature"):
         # Root is a part body: We can directly export that
@@ -36,15 +42,12 @@ def export(output: str):
 
     elif root.isDerivedFrom("App::Part"):
         # Root is an assembly: Scan for all individual parts
-        objects = doc.findObjects("Part::Feature")
+        objects = doc.Objects
         objects = [o for o in objects if root in o.InListRecursive]
 
-    # pprint([(o, o.Label, o.TypeId) for o in objects])
+    pprint([(o, o.Shape, o.Label, o.TypeId) for o in objects])
 
-    if fmt.lower() in FORMAT_MESH:
-        Mesh.export([root], output)
-    else:
-        Part.export(objects, output)
+    Part.export(objects, output)
 
 
 parser = argparse.ArgumentParser()
