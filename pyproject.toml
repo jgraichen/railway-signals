@@ -5,7 +5,7 @@ authors = [{ name = "Jan Graichen", email = "jgraichen@altimos.de" }]
 dependencies = [
     "mkdocs-material>=9.5.25",
 ]
-requires-python = "==3.12.*"
+requires-python = "==3.13.*"
 readme = "README.md"
 
 [tool.pdm]
