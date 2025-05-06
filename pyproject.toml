@@ -2,11 +2,13 @@
 name = "railway-signals"
 version = "1.0.0"
 authors = [{ name = "Jan Graichen", email = "jgraichen@altimos.de" }]
-dependencies = [
-    "mkdocs-material>=9.5.25",
-]
-requires-python = "==3.12.*"
+dependencies = []
+requires-python = "~=3.13.0"
 readme = "README.md"
 
-[tool.pdm]
-distribution = false
+[project.optional-dependencies]
+docs = [
+    "mkdocs-awesome-nav~=3.1.1",
+    "mkdocs-git-revision-date-plugin~=0.3.2",
+    "mkdocs-material~=9.5.25",
+]
