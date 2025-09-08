@@ -25,7 +25,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           enable-cache: True
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
       - run: uv sync --all-extras
       - run: uv run mkdocs build
       - uses: actions/configure-pages@v5
