@@ -8,7 +8,7 @@ readme = "README.md"
 
 [project.optional-dependencies]
 docs = [
-    "mkdocs-awesome-nav~=3.1.1",
+    "mkdocs-awesome-nav~=3.2.0",
     "mkdocs-git-revision-date-plugin~=0.3.2",
     "mkdocs-material~=9.6.13",
 ]
