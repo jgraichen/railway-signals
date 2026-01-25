@@ -32,8 +32,16 @@
       </td>
     </tr>
     <tr>
-      <td width="200" align="center"></td>
-      <td width="200" align="center"></td>
+      <td width="200" align="center">
+        <img src="export/ZS_Zs3_2-front.png">
+        <br>
+        <a href="export/ZS_Zs3_2.step">STEP</a> · <a href="export/ZS_Zs3_2.stl">STL</a>
+      </td>
+      <td width="200" align="center">
+        <img src="export/ZS_Zs3_2_NR-front.png">
+        <br>
+        <a href="export/ZS_Zs3_2_NR.step">STEP</a> · <a href="export/ZS_Zs3_2_NR.stl">STL</a>
+      </td>
       <td>
         <p>
           <em>ZS_Zs3_2</em>
