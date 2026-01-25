@@ -30,7 +30,7 @@ def export(output: str):
     # Only export all part features objects from the first root element
     root = doc.RootObjects[0]
 
-    pprint((root, root.Label, root.TypeId))
+    pprint(("ROOT", root, root.Label, root.TypeId))
 
     if fmt.lower() in FORMAT_MESH:
         Mesh.export([root], output)
@@ -38,16 +38,16 @@ def export(output: str):
 
     if root.isDerivedFrom("Part::Feature"):
         # Root is a part body: We can directly export that
-        objects = [root]
+        Part.export([root], output)
+
+    elif root.isDerivedFrom("Assembly::AssemblyObject"):
+        # Root is a new assembly: Export assembly shape directly
+        root.Shape.exportStep(output)
 
     elif root.isDerivedFrom("App::Part"):
-        # Root is an assembly: Scan for all individual parts
-        objects = doc.Objects
-        objects = [o for o in objects if root in o.InListRecursive]
-
-    pprint([(o, o.Shape, o.Label, o.TypeId) for o in objects])
-
-    Part.export(objects, output)
+        # Root is an old assembly: Scan for all individual parts
+        objects = [o for o in doc.Objects if root in o.InListRecursive]
+        Part.export(objects, output)
 
 
 parser = argparse.ArgumentParser()
