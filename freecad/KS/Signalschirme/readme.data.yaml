@@ -25,6 +25,15 @@ ms:
     - Kennlicht
     - Vorsichtssignal
     - Verkürzter Bremswegabstand
+  MS_Zs7_Sh1:
+    - Kennlicht
+    - Vorsichtssignal
+    - Rangiersignal
+  MS_Zs7_Sh1_vBw:
+    - Kennlicht
+    - Vorsichtssignal
+    - Rangiersignal
+    - Verkürzter Bremswegabstand
   MS_Zs7_Zs1:
     - Vorsichtssignal
     - Ersatzsignal (links unten)

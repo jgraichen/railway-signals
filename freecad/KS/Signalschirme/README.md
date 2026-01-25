@@ -169,6 +169,43 @@
       </td>
     </tr>
     <tr>
+      <td width="200" align="center"></td>
+      <td width="200" align="center">
+        <img src="export/MS_Zs7_Sh1__B-front.png">
+        <br>
+        <a href="export/MS_Zs7_Sh1__B.step">STEP</a> · <a href="export/MS_Zs7_Sh1__B.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>MS_Zs7_Sh1</em>
+        </p>
+        <ul>
+          <li>Kennlicht</li>
+          <li>Vorsichtssignal</li>
+          <li>Rangiersignal</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="200" align="center"></td>
+      <td width="200" align="center">
+        <img src="export/MS_Zs7_Sh1_vBw__B-front.png">
+        <br>
+        <a href="export/MS_Zs7_Sh1_vBw__B.step">STEP</a> · <a href="export/MS_Zs7_Sh1_vBw__B.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>MS_Zs7_Sh1_vBw</em>
+        </p>
+        <ul>
+          <li>Kennlicht</li>
+          <li>Vorsichtssignal</li>
+          <li>Rangiersignal</li>
+          <li>Verkürzter Bremswegabstand</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td width="200" align="center">
         <img src="export/MS_Zs7_Zs1__A-front.png">
         <br>
