@@ -5,6 +5,9 @@ gittermasten:
     width: 410
     images: ["export/{name}-front.png", "export/{name}-axo.png"]
 
+  Gittermast_60_1ZS:
+    - Ein Zusatzsignal
+
   Gittermast_60_2ZS:
     - Zwei Zusatzsignale
 

@@ -13,6 +13,22 @@
   <tbody>
     <tr>
       <td width="410" align="center">
+        <img src="export/Gittermast_60_1ZS-front.png" width="45.0%">
+        <img src="export/Gittermast_60_1ZS-axo.png" width="45.0%">
+        <br>
+        <a href="export/Gittermast_60_1ZS.step">STEP</a> · <a href="export/Gittermast_60_1ZS.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>Gittermast_60_1ZS</em>
+        </p>
+        <ul>
+          <li>Ein Zusatzsignal</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="410" align="center">
         <img src="export/Gittermast_60_2ZS-front.png" width="45.0%">
         <img src="export/Gittermast_60_2ZS-axo.png" width="45.0%">
         <br>
