@@ -1,5 +1,19 @@
 ---
 licht:
+  ZS_Zs2_P:
+    files:
+      - ZS_Zs2_P
+      - ZS_Zs2_P_NR
+    notes:
+      - Richtung "P"
+
+  ZS_Zs3_2:
+    files:
+      - ZS_Zs2_4
+      - ZS_Zs2_4_NR
+    notes:
+      - 20 km/h
+
   ZS_Zs3_4:
     files:
       - ZS_Zs3_4

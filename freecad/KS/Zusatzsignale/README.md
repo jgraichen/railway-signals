@@ -13,6 +13,38 @@
   <tbody>
     <tr>
       <td width="200" align="center">
+        <img src="export/ZS_Zs2_P-front.png">
+        <br>
+        <a href="export/ZS_Zs2_P.step">STEP</a> · <a href="export/ZS_Zs2_P.stl">STL</a>
+      </td>
+      <td width="200" align="center">
+        <img src="export/ZS_Zs2_P_NR-front.png">
+        <br>
+        <a href="export/ZS_Zs2_P_NR.step">STEP</a> · <a href="export/ZS_Zs2_P_NR.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>ZS_Zs2_P</em>
+        </p>
+        <ul>
+          <li>Richtung "P"</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="200" align="center"></td>
+      <td width="200" align="center"></td>
+      <td>
+        <p>
+          <em>ZS_Zs3_2</em>
+        </p>
+        <ul>
+          <li>20 km/h</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="200" align="center">
         <img src="export/ZS_Zs3_4-front.png">
         <br>
         <a href="export/ZS_Zs3_4.step">STEP</a> · <a href="export/ZS_Zs3_4.stl">STL</a>
