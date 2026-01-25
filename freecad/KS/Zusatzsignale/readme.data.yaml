@@ -14,6 +14,13 @@ licht:
     notes:
       - 20 km/h
 
+  ZS_Zs3_3:
+    files:
+      - ZS_Zs3_3
+      - ZS_Zs3_3_NR
+    notes:
+      - 30 km/h
+
   ZS_Zs3_4:
     files:
       - ZS_Zs3_4

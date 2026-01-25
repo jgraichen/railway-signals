@@ -53,6 +53,26 @@
     </tr>
     <tr>
       <td width="200" align="center">
+        <img src="export/ZS_Zs3_3-front.png">
+        <br>
+        <a href="export/ZS_Zs3_3.step">STEP</a> · <a href="export/ZS_Zs3_3.stl">STL</a>
+      </td>
+      <td width="200" align="center">
+        <img src="export/ZS_Zs3_3_NR-front.png">
+        <br>
+        <a href="export/ZS_Zs3_3_NR.step">STEP</a> · <a href="export/ZS_Zs3_3_NR.stl">STL</a>
+      </td>
+      <td>
+        <p>
+          <em>ZS_Zs3_3</em>
+        </p>
+        <ul>
+          <li>30 km/h</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="200" align="center">
         <img src="export/ZS_Zs3_4-front.png">
         <br>
         <a href="export/ZS_Zs3_4.step">STEP</a> · <a href="export/ZS_Zs3_4.stl">STL</a>
